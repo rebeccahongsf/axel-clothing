@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats: {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,10 +60,47 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  coats: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Coats',
+    routeName: 'coats',
+    items: [
+      {
+        id: 18,
+        name: 'Black Jean Shearling',
+        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        price: 125,
+      },
+      {
+        id: 19,
+        name: 'Blue Jean Jacket',
+        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        price: 90,
+      },
+      {
+        id: 20,
+        name: 'Grey Jean Jacket',
+        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        price: 90,
+      },
+      {
+        id: 21,
+        name: 'Brown Shearling',
+        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        price: 165,
+      },
+      {
+        id: 22,
+        name: 'Tan Trench',
+        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+        price: 185,
+      },
+    ],
+  },
+  collars: {
+    id: 3,
+    title: 'Collars',
+    routeName: 'collars',
     items: [
       {
         id: 10,
@@ -115,47 +152,10 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
-    id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
-    items: [
-      {
-        id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125,
-      },
-      {
-        id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90,
-      },
-      {
-        id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90,
-      },
-      {
-        id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165,
-      },
-      {
-        id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185,
-      },
-    ],
-  },
-  {
+  booties: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Booties',
+    routeName: 'booties',
     items: [
       {
         id: 23,
@@ -201,10 +201,10 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  treats: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Treats',
+    routeName: 'treats',
     items: [
       {
         id: 30,
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;
