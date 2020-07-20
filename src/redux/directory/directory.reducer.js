@@ -1,4 +1,4 @@
-const INITAL_STATE = {
+const INITIAL_STATE = {
   sections: [
     {
       title: 'hats',
